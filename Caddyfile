@@ -1,3 +1,7 @@
-:10000 {
+{
+    auto_https off
+}
+
+:{$PORT} {
     reverse_proxy 136.243.13.159:20085
 }
